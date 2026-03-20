@@ -10,7 +10,7 @@ st.title("🌾 FarmConnect Advanced Smart Dashboard")
 # -----------------------------
 # LOAD & CLEAN DATA
 # -----------------------------
-df_raw = pd.read_csv(r"C:\Users\sy053\Downloads\Marketwise_Price_Arrival_20-03-2026_12-34-02_AM.csv", skiprows=2)
+df_raw = pd.read_csv("data.csv, skiprows=2)
 
 # Pick important columns
 df = df_raw.iloc[:, [1, 4, 5, 6, 8]].copy()
